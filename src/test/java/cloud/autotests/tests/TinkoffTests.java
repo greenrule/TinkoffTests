@@ -2,6 +2,7 @@ package cloud.autotests.tests;
 
 import cloud.autotests.helpers.DriverUtils;
 import io.qameta.allure.Description;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -13,6 +14,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class TinkoffTests extends TestBase {
     @Test
+    @Disabled
     @DisplayName("Проверка перехода с главной страницы на вкладку Путешествие")
     void generatedTest() {
         step("Открыть https://www.tinkoff.ru/", () -> {
@@ -29,6 +31,7 @@ public class TinkoffTests extends TestBase {
     }
 
     @Test
+    @Disabled
     @Description("монитиорим, что сайт работает")
     @DisplayName("Проверка, что открылась главная страница")
     void titleTest() {
@@ -44,6 +47,7 @@ public class TinkoffTests extends TestBase {
     }
 
     @Test
+    @Disabled
     @Description("проверяем фронтовые ошибки")
     @DisplayName("Проверка, что не ошибок в консоли")
     void consoleShouldNotHaveErrorsTest() {
