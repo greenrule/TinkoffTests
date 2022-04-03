@@ -125,7 +125,7 @@ test
 
 > К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
 <p align="center">
-  <img title="Selenoid Video" src="images/gif/selenoid_video.webm">
+  <img title="Selenoid Video" src="images/gif/selenoid_video.gif">
 </p>
 
 
