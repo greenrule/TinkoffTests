@@ -89,7 +89,9 @@ test
 >
 > <code>BROWSER_SIZE</code> – размер окна браузера, в котором будут выполняться тесты (_по умолчанию - <code>1920x1080</code>_).
 
-
+<p align="center">
+<img title="jenkins_parameters" src="images/screens/jenkins_parameters.png">
+</p>
 
 ### :skier: Главная страница Allure-отчета
 
@@ -123,7 +125,7 @@ test
 
 > К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
 <p align="center">
-  <img title="Selenoid Video" src="images/gif/selenoid_video.gif">
+  <img title="Selenoid Video" src="images/gif/selenoid_video.mp4">
 </p>
 
 
