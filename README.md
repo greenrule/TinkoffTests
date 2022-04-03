@@ -17,7 +17,7 @@
 > ➠ [Пример запуска теста в Selenoid](#-пример-запуска-теста-в-selenoid)
 
 
-## :earth_africa: Покрытый функционал
+## :star: Покрытый функционал
 
 > Разработаны автотесты на <code>UI</code>.
 ### UI
@@ -28,7 +28,7 @@
 - [x] Проверка работы выпадающего списка на вкладке Путешествия
 - [x] Переход с вкладки путешествия на главную страницу
 
-## :classical_building: Технологический стек
+## :star: Технологический стек
 
 <p align="center">
 <img width="6%" title="IntelliJ IDEA" src="images/logo/Intelij_IDEA.svg">
@@ -59,13 +59,13 @@
 
 ## Запуск тестов из терминала
 
-### :robot: Локальный запуск тестов
+### :star: Локальный запуск тестов
 
 ```
 gradle clean test
 ```
 
-### :robot: Удаленный запуск тестов 
+### :star: Удаленный запуск тестов 
 
 ```
 clean
@@ -79,7 +79,7 @@ test
 -Dthreads=${THREADS}
 ```
 
-### :robot: Параметры сборки
+### :star: Параметры сборки
 
 > <code>REMOTE_URL</code> – адрес удаленного сервера, на котором будут запускаться тесты.
 >
@@ -93,20 +93,20 @@ test
 <img title="jenkins_parameters" src="images/screens/jenkins_parameters.png">
 </p>
 
-### :skier: Главная страница Allure-отчета
+### :star: Главная страница Allure-отчета
 
 <p align="center">
 <img title="Allure Overview" src="images/screens/allure_overview.png">
 </p>
 
-### :eye_speech_bubble: Группировка тестов по проверяемому функционалу
+### :star: Группировка тестов по проверяемому функционалу
 
 <p align="center">
 <img title="Allure Behaviors" src="images/screens/allure_behaviors.png">
 </p>
 
 
-### :frog: Основной дашборд
+### :star: Основной дашборд
 
 <p align="center">
 <img title="Allure Overview Dashboard" src="images/screens/allure_overview_dashboard.png">
@@ -125,7 +125,7 @@ test
 
 > К каждому тесту в отчете прилагается видео. Одно из таких видео представлено ниже.
 <p align="center">
-  <img title="Selenoid Video" src="images/gif/selenoid_video.mp4">
+  <img title="Selenoid Video" src="images/gif/selenoid_video.webm">
 </p>
 
 
